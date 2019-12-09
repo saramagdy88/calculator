@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- calc div -->
+    <div class="calc">
+      <div class="container">
+        <form id="formal">
+          <!-- top div -->
+          <div class="top">
+            <h2>Tip Calculator</h2>
+          </div>
+          <!-- top div -->
+          <!-- bottom div -->
+          <div class="bottom">
+            <!-- bill input -->
+            <h3>How much was your bill?</h3>
+            $<input type="number" id="bill" />
+            <!-- service input -->
+            <h3>How was your service?</h3>
+            <select id="service">
+              <option value=".2">Good - 20%</option>
+              <option value=".3">Outstanding - 30%</option>
+              <option value=".15"> OK - 15%</option>
+              <option value=".05"> Terrible - 5% </option>
+              <option value=".1"> Bad - 10%</option>
+            </select>
+            <!-- num of people input -->
+            <h3>How many people are sharing the bill?</h3>
+            <input type="number" id="peopleNum" /> people
+            <button id="enter">Calculate</button>
+          </div>
+          <!-- bottom div -->
+        </form>
+        <div class="result">
+          <!-- the result  -->
+        </div>
+      </div>
+    </div>
+    <!-- calc div -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
