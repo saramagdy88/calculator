@@ -61,3 +61,7 @@ body {
 .close:after {
   content: "  $ each person";
 }
+
+.hidden {
+  display: none;
+}
